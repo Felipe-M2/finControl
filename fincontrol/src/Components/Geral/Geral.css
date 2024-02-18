@@ -1,0 +1,70 @@
+.compras {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    overflow: auto;
+}
+
+.compras::-webkit-scrollbar {
+    width: 8px;
+}
+
+.compras::-webkit-scrollbar-track {
+    background: var(--corFontPretoOpacity);
+    border-radius: 10px;
+}
+
+.compras::-webkit-scrollbar-thumb {
+    background-color: var(--corFontPreto);
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+.dadosCompras {
+    width: 100%;
+    max-width: 560px;
+    padding: 20px;
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 10px;
+    max-height: 220px !important;
+}
+
+.cardDadosCompras {
+    width: 150px;
+    border-bottom: 1px solid var(--corFontPrincipal);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cardDadosCompras h3 {
+    font-size: 0.9rem;
+    color: var(--corTituloGrafico);
+    font-family: "inter-regular";
+}
+
+.cardDadosCompras p {
+    font-size: 1.1rem;
+    /* color: var(--corFontPrincipal); */
+    color: #ffffffe3;
+    font-family: "inter-medium";
+}
+
+.graficoCompras {
+    width: 100%;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.listaCompras {
+    padding: 20px;
+    width: 100%;
+    grid-area: 2 / 1 / 3 / 3;
+    padding-bottom: 200px;
+}

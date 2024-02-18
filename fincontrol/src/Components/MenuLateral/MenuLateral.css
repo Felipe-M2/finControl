@@ -1,0 +1,69 @@
+.menuLateral{
+    border-right: 1px solid var(--corBorda);
+    height: 100%;
+    padding: 20px;
+}
+
+.usuarioMenuLateral{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: .8rem;
+}
+
+.usuarioMenuLateral p{
+    color: #777274;
+}
+
+.iconMenuLateral{
+    display: flex;
+
+}
+
+.iconMenuLateral button{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.usuarioMenuLateral button span{
+    color: #1E1E1E;
+    font-size: 1rem;
+}
+
+.navBarMenuLateral{
+    padding: 20px 0;
+}
+
+.navBarMenuLateral td{
+    display: flex;
+}
+
+.navBarMenuLateral td button{
+    width: 150px !important;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--corFontPrincipal);
+    gap: 5px;
+    padding: 2px 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navBarMenuLateral td button:hover{
+    color: #fff;
+}
+
+.navBarMenuLateral td button span{
+    color: var(--corFontPrincipal);
+    font-size: 1.1rem;
+}

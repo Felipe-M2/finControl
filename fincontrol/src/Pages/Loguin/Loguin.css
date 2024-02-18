@@ -1,0 +1,94 @@
+.loguin{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    width: 50%;
+}
+
+.img img{
+    width: 60%;
+    border-radius: 0 30px 30px 0;
+}
+
+.formDiv{
+    background-image: var(--gradienteLinear);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.formDiv img{
+    width: 200px;
+}
+
+.formLoguin{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.inputFormLoguin{
+    position: relative;
+}
+
+.inputFormLoguin input{
+    width: 300px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    transition: 300ms;
+    color: #fff;
+}
+
+.inputFormLoguin label{
+    position: absolute;
+    left: 0;
+    color: #fff;
+    cursor: text;
+    transition: 300ms;
+}
+
+.inputFormLoguin input:valid ~ label{
+    top: -15px;
+    font-size: 0.8rem;
+    opacity: .7;
+}
+
+.inputFormLoguin input:focus ~ label{
+    top: -15px;
+    font-size: 0.8rem;
+    opacity: .7;
+}
+
+.btnLoguin{
+    width: 140px;
+    height: 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    font-family: "inter-medium";
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btnResetPassword{
+    font-size: 1rem;
+    font-family: "inter-medium";
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
