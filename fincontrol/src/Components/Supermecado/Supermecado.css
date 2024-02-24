@@ -1,0 +1,71 @@
+.supermecado{
+    padding: 10px;
+}
+
+.supermecado form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.cardInput{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.cardInput > label{
+    font-size: .9rem;
+    color: var(--corFontPrincipal)
+}
+
+.cardInput > input{
+    border: none;
+    width: 150px;
+    height: 18px;
+    outline: none;
+    color: var(--corFontPreto);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.btnAddSupList{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.menuSup{
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.dadosSupList{
+    width: 350px;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-radius: 30px;
+    gap: 5px;
+    color: var(--corFontPretoOpacity);
+}
+
+.btnConfirmSup{
+    padding: 0 10px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #017F71, #169385);
+    color: var(--corFontPrincipal);
+    font-family: "inter-bold";
+}
